@@ -26,3 +26,27 @@ https://huggingface.co/spaces/SidraMalik/shayari-genie
 ## Here's how the interface looks like 
 
 ![image](https://github.com/user-attachments/assets/d917c12c-b06c-4773-b072-d5702d6ec3f3)
+
+## Installation & Setup  
+
+### 1. Clone the following Repository
+
+git clone https://github.com/SidrahMalik/Shayari-Genie.git
+
+### Install dependencies
+
+pip install -r requirements.txt
+
+### Download the Trained Model & Tokenizer
+
+Since GitHub does not support large files, download the trained model separately
+
+tokenizer.pkl (Saved Tokenizer) → Already included in this repo
+
+Once downloaded, place urdu_poetry_model.h5 inside the project folder.
+
+### Run the App
+
+python app.py
+
+
